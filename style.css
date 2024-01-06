@@ -32,7 +32,7 @@
   margin: 0 auto 0;
 }
 
-.new-task__input {
+.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -135,7 +135,7 @@ input[type="checkbox"] {
   width: 226px;
 }
 
-.task-input {
+.task {
   width: 226px;
 }
 
@@ -156,11 +156,12 @@ input[type="checkbox"] {
 }
 
 /* Edit Task */
-.task-input {
+.tasks-list__item .task-input {
   display: none;
 }
 
-.tasks-list__item_edit-mode .task-input {
+.tasks-list__item_edit-mode .task-input,
+.task-input {
   display: inline-block;
   width: 224px;
 }
